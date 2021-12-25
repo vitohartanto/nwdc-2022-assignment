@@ -1,0 +1,352 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  float: right;
+}
+
+nav a {
+  display: block;
+  padding: 20px;
+}
+
+.nav-Resp {
+  display:none;
+}
+
+
+
+section {
+  height: 500px;
+  background-color: white;
+  border: solid black 1px;
+}
+
+.hero {
+  background-color: white;
+  min-height: 100vh;
+  color: black;
+  font-size: 40px;
+  position: relative
+}
+
+footer {
+  height: 130px;
+  background-color: #4ee44e;
+  text-align: center;
+  margin: auto;
+  border: 1px black solid;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4ee44e;
+}
+
+nav .fa{
+  display: none;
+  color: #000;
+  margin: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.nav-Links {
+
+  font-weight: 500;
+  margin: 0 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 700px;
+  justify-content: space-between;
+  font-size: 30px;
+}
+
+li {
+  width: 200px;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 60px;
+  margin: 0;
+}
+
+h2{
+  font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+  margin: 0;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.hero-text {
+  margin-left: 40px;
+  margin-bottom: 200px;
+}
+
+.hero-area{
+  display:flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  background-color:#4ee44e;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #90ee90;
+}
+
+.button:active {
+  background-color: darkgreen;
+  color: #ffffff;
+}
+
+.socials{
+  padding-bottom: 300px;
+}
+
+.logo {
+  height: 50px;
+  margin: 30px 0px 30px 0;
+}
+
+.social{
+  margin: 20px;
+}
+
+.sub-section{
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  height: 530px;
+}
+.sub-section2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 450px;
+}
+
+.sub-section3{
+  height: 400px;
+  text-align: center;
+}
+
+.sub-section3 p{
+  margin: 0 40px 0 40px;
+}
+
+.sub-section4 {
+  height: 1000px;
+  text-align: center;
+}
+
+.headshot{
+  width: 300px;
+  border-radius: 40px;
+}
+
+.headshot-container{
+  display: flex;
+  align-items: center;
+}
+
+.project-card{
+  width: 150px;
+  height: 200px;
+  margin-left: 80px;
+}
+
+.project-card h3{
+    margin-left: 60px
+
+}
+
+.project-container{
+  display: flex;
+  justify-content: initial;
+}
+
+.project-image{
+  margin-top: -50px;
+}
+
+.subtext {
+
+  font-size: 15px;
+  font-weight: 500;
+  text-align: justify;
+  margin: 30px;
+}
+
+.ekspektasitotal{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ekspektasitotal p{
+  font-weight: 300;
+}
+
+.gambarekspektasi{
+  width: 400px;
+  height: 250px;
+  margin: -10px 20px 20px 20px
+}
+
+.ekspektasi1 {
+  box-shadow: 5px 5px 20px grey;
+  width: 500px;
+  height: 630px;
+}
+
+.ekspektasi2{
+  box-shadow: 5px 5px 20px grey;
+  width: 500px;
+  height: 630px;
+}
+
+hr{
+  margin: 0 30px;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+  .project-card{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ekspektasitotal{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav .fa{
+    display:none;
+  }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .nav-Links{
+    display: block;
+    font-size: 60px;
+    border: 0;
+    background-color: transparent;
+    color: black;
+  }
+  
+}
+
+
+@media (max-width: 1000px){
+  .sub-section{
+    height: 640px;
+  }
+  .sub-section2{
+    height: 480px;
+  }
+  .sub-section3{
+    height: 510px;
+  }
+  .sub-section4{
+    height: 1580px;
+  }
+  html, body {
+    overflow-x: auto;
+  }
+
+  .nav-Links{
+    position: absolute;
+    background: #008000;
+    height: 1230px;
+    width: 500px;
+    top: 0px;
+    right: -20px;
+    text-align: left;
+    z-index: 3;
+    transition: 1s;
+  }
+
+  nav .fa{
+    display: block;
+    color: #fff;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 400px;
+  }
+
+  .nav-Links ul{
+    padding: 30px 0 30px 30px;
+  }
+  .nav-Links ul li{
+    display: none;
+
+  }
+
+  .nav-Links ul li a{
+    color: white;
+    display: block;
+  }
+
+  .nav-Resp {
+    display: block;
+  }
+
+  .nav-Resp a{
+    display:block;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .ekspektasi1{
+    font-size: 200px;
+  }
+
+  .ekspektasi2{
+    font-size: 200px;
+  }
+
+  nav{
+    justify-content: flex-start;
+  }
+
+  .project-card h3{
+    margin:auto;
+    padding: 30px;
+    
+  }
+}
