@@ -225,13 +225,13 @@ p{
 .ekspektasi1 {
   box-shadow: 5px 5px 20px grey;
   width: 500px;
-  height: 630px;
+  height: 660px;
 }
 
 .ekspektasi2{
   box-shadow: 5px 5px 20px grey;
   width: 500px;
-  height: 630px;
+  height: 660px;
 }
 
 hr{
@@ -288,7 +288,7 @@ hr{
   .nav-Links{
     position: absolute;
     background: #008000;
-    height: 1230px;
+    height: 100%;
     width: 500px;
     top: 0px;
     right: -20px;
